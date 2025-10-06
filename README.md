@@ -1,7 +1,3 @@
-# Artificial-Intelligence-AND-Machine-Learning
-Exploring how machines learn and think — my hands-on journey into the realm of Artificial Intelligence and Machine Learning.
-
-
 
 # 🧠 AI-ML Journey
 
@@ -34,19 +30,20 @@ From core concepts and math basics to hands-on Python notebooks and projects —
 | Unsupervised Learning | ⬜ Pending | — |
 | Deep Learning Basics | ⬜ Pending | — |
 
+> 📝 **Note:** This Progress Tracker is just for show right now — once I learn each topic, I’ll update it accordingly.
 ---
 
 ## 🛠 Tools & Technologies
 - **Language:** Python 🐍  
 - **Libraries:** NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras  
-- **Environment:** Jupyter Notebook / VS Code  
+- **Environment:** Jupyter Notebook / VS Code / Anaconda 
 - **Version Control:** Git + GitHub
 
 ---
 
 ## 📚 Resources I’m Following
-- YouTube Playlists (e.g. Krish Naik, Codebasics, or CampusX)
-- Online Courses (Coursera, Kaggle, or freeCodeCamp)
+- YouTube Playlists (e.g. Krish Naik, DeepLearningAI )
+- Online Courses (DeepLearningAI, Kaggle, or freeCodeCamp)
 - Notes & docs I’ll create along the way ✍️
 
 ---
@@ -60,10 +57,10 @@ Once I’m confident with the basics, I’ll start:
 
 ---
 
-## 💬 Connect
-If you’re also learning AI/ML, feel free to share tips or resources — let’s grow together! 🤝  
-
 ## 💬 Connect with Me  
+
+If you’re also learning AI/ML, feel free to share tips or resources — let’s grow together! 🤝 
+
 [![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@sushinnovates)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sushinnovates)
 
