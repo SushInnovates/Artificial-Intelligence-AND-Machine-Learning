@@ -23,6 +23,8 @@ From core concepts and math basics to hands-on Python notebooks and projects —
 ## 🧭 Progress Tracker
 | Topic | Status | Notes |
 |--------|---------|-------|
+| Python Core | ⏳ In Progress | — |
+| Python Advance | ⏳ In Progress | — |
 | Introduction to AI/ML | ⏳ In Progress | — |
 | Python for Data Science | ⏳ In Progress | — |
 | Data Preprocessing | ⬜ Pending | — |
