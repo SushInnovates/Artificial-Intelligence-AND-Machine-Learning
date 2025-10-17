@@ -1,0 +1,18 @@
+Python Basics: Introduction
+1 - It is dynamically typed OOP language developed by guido van Rossum in 1991 
+2 - Python is an interpreted & high-level programming language
+3 - Features :
+    • It is simple and easy to understand
+    • It is interpreted & platform - independent which makes debugging very easy
+    • It is an open - source programming language
+    • python provides very big library support. There Are Many Libraries for example NumPy, Tensorflow, Selenium, OpenCY ete
+    • It is possible to integrate other programming languages within python.
+4- Used for :
+    • Data visualization to create plots and graphical representation
+    • Data Analytics to analyze & understand raw data for insights and trends
+    • AI /ML to simulate human behaviour and to learn
+From past data without 
+hard coding
+    • used to create web applications
+    • used to handle databases
+    • used in bussinass and accounting to perform complex mathematical operations along with quantitive analysis
