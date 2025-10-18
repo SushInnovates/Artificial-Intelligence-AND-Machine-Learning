@@ -25,3 +25,5 @@ There is **no need to install** such modules explicitly.
 ```python
 import math
 print(math.sqrt(25))  # Output: 5.0
+
+```
