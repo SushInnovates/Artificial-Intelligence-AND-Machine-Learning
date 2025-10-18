@@ -1,0 +1,25 @@
+~ Modules and Pip
+1>  Modules is like a code library which can be used to borrow the code written by somebody else in our python program.
+There are two types of modules
+    • Built im Modules -
+                        These modules ame ready to import and use and ships with the python interpreter. there is no need to install such modules explicitly.
+
+    • External Modules -
+                        These modules are imported from a third party file or can be installed using a package manager lilie pip or conda. Since this code is written by someone else, we can install different versions of a same module with time
+2> we can install modules and packages using 
+    pip install package/module_name
+        ex 1- pip install pandas    
+        ex 2- pip install scikit-learn
+        ex 3 - pip install Tensorflow
+
+3> Using a modules in python(usage)
+we use the import sytax to import a module in python . here is the example
+```
+import pandas
+# read and work with the file names 'words.csv'
+pandas.read_csv('words.csv')
+
+````
+
+similarly we can install other modules and look into their documentation for usage instructions. we will find ourselved doing this in the 
+later part of this course
