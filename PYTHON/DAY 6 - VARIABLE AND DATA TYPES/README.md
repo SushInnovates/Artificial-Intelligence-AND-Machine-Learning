@@ -16,12 +16,15 @@ y = 3.14        # float
 is_valid = True # bool
 name = None     # NoneType
 ```
-## 🧠 Predefined Data Types Explained |
-| Type	 | Example	 | Description |
-| int	 | x = 42	 | Whole numbers, positive or negative |
-| float | 	pi = 3.1415	 | Decimal numbers |
-| bool	 | is_ready = True	 | Logical values: True or False |
-| NoneType | 	data = None	 | Represents absence of value |
-| list | 	fruits = ["apple", "banana"]	 | Ordered, mutable collection |
-| tuple | 	coords = (10, 20)	 | Ordered, immutable collection |
-| dict	 | user = {"name": "Sushant", "age": 25} | 	Key-value pairs | 
+### 🧠 Predefined Data Types Explained
+
+| Type       | Example                                | Description                                      |
+|------------|----------------------------------------|--------------------------------------------------|
+| `int`      | `x = 42`                               | Whole numbers, positive or negative              |
+| `float`    | `pi = 3.1415`                          | Decimal numbers with fractional parts            |
+| `bool`     | `is_ready = True`                      | Logical values: `True` or `False`                |
+| `NoneType` | `data = None`                          | Represents the absence of a value                |
+| `list`     | `fruits = ["apple", "banana"]`         | Ordered, mutable collection of items             |
+| `tuple`    | `coords = (10, 20)`                    | Ordered, immutable collection of items           |
+| `dict`     | `user = {"name": "Sushant", "age": 25}`| Collection of key-value pairs                    |
+
