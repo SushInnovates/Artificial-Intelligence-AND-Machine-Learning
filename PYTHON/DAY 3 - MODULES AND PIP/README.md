@@ -32,9 +32,9 @@ print(math.sqrt(25))  # Output: 5.0
                         Since this code is written by someone else, we can install different versions of a same module with time
    • we can install modules and packages using 
     pip install package/module_name
-    - ex 1 :  pip install pandas
-    - ex 2 :  pip install scikit-learn
-    - ex 3 : pip install Tensorflow
+    - `ex 1 :  pip install pandas`
+    - `ex 2 :  pip install scikit-learn`
+    - `ex 3 : pip install Tensorflow`
 
  • Using a modules in python(usage)
 we use the import syntax to import a module in python . here is the example
