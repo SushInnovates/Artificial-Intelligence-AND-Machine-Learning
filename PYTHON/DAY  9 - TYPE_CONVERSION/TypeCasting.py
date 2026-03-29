@@ -1,6 +1,6 @@
 """
-Topic: Type Casting in Python
-Description: Examples of converting one data type into another in Python.
+Topic: Type Conversion in Python
+Description: it is usee for converting one data type into another in Python.
 """
 
 # Example 1: Integer to Float
