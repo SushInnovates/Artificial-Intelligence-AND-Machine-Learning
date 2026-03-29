@@ -1,4 +1,4 @@
-# Day 03 - Type Casting in Python
+# Day 09 - Type Casting in Python
 
 ## What is Type Casting?
 
@@ -15,6 +15,7 @@ Example:
 - int()
 - float()
 - str()
+- bool()
 
 ## Example
 
@@ -23,5 +24,4 @@ num = int(num)
 
 Now num becomes an integer.
 
-## Author
-Sushant Sutar
+
