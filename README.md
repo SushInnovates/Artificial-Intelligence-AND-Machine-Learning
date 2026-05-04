@@ -44,7 +44,7 @@ From core concepts and math basics to hands-on Python notebooks and projects —
 ---
 
 ## 📚 Resources I’m Following
-- YouTube Playlists (e.g. Krish Naik, DeepLearningAI )
+- YouTube Playlists (e.g. CampusX , Krish Naik, DeepLearningAI )
 - Online Courses (DeepLearningAI, Kaggle, or freeCodeCamp)
 - Notes & docs I’ll create along the way ✍️
 
