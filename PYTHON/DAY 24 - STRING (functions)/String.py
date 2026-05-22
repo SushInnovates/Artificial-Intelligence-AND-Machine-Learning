@@ -1,114 +1,98 @@
-# String functions 
+# String Functions in Python
 # ~ Common Functions
-# 1>len 2> max 3> min 4> sorted
+# 1. len()   2. max()   3. min()   4. sorted()
 
 c = "mumbai"
 
-# it returns the length of the String
-print(len(c))
+# len() - returns the length of the string
+print(len(c))   # Output: 6
 
-# it return the maximum ASCII value element 
-print(max(c))
+# max() - returns the character with the maximum ASCII value
+print(max(c))   # Output: 'u'
 
-# it return the minimum ASCII value element
-print(min(c))
+# min() - returns the character with the minimum ASCII value
+print(min(c))   # Output: 'a'
 
-# sorted - it sorts it according to ASCII value its by default is ascending order
-print(sorted(c)) 
+# sorted() - sorts characters by ASCII value (ascending by default)
+print(sorted(c))   # Output: ['a', 'b', 'i', 'm', 'm', 'u']
 
-# to get it in descending order we have to use the hidden parameter which is 'reverse=True'
-print(sorted(c,reverse=True))  
+# sorted() with reverse=True - sorts in descending order
+print(sorted(c, reverse=True))   # Output: ['u', 'm', 'm', 'i', 'b', 'a']
 
-# 1 : Capitalize/Title/Upper/Lower/Swapcase
 
-# capitalize - it only makes the first letter capital
-print(c.capitalize())
-d = 'it is raining today'
-print(d.capitalize()) 
+# 1 : Capitalize / Title / Upper / Lower / Swapcase
+c = "mumbai"
 
-#title - it makes first letter of all the words capital
-print(d.title())
+# capitalize() - makes only the first letter uppercase
+print(c.capitalize())   # Output: 'Mumbai'
 
-# upper - it makes everything uppercase
+d = "it is raining today"
+print(d.capitalize())   # Output: 'It is raining today'
+
+# title() - makes the first letter of every word uppercase
+print(d.title())   # Output: 'It Is Raining Today'
+
+# upper() - converts all characters to uppercase
 f = " heLlo"
-print(f.upper())
+print(f.upper())   # Output: ' HELLO'
 
-# lower - it makes everything lowercase
-print(f.lower())
+# lower() - converts all characters to lowercase
+print(f.lower())   # Output: ' hello'
 
-#swapcase - makes lowercase to uppercase and uppercase to the lowercase
-print(f.swapcase())
+# swapcase() - swaps uppercase to lowercase and vice versa
+print(f.swapcase())   # Output: ' HEllO'
+
 
 # 2 : Count
-# count - it counts the specified value
 g = " it is raining outside"
-print(g.count('i'))
-print(g.count('ing'))
-print(g.count('is'))
-print(g.count('rain'))
-print(g.count('f'))
 
-# 3 - Find/index
+# count() - counts occurrences of a substring
+print(g.count('i'))       # Output: 4
+print(g.count('ing'))     # Output: 2
+print(g.count('is'))      # Output: 2
+print(g.count('rain'))    # Output: 1
+print(g.count('f'))       # Output: 0
+
+
+# 3 : Find / Index
 h = " it is raining outside"
-print(h.find('g')) # if there are mupliple value then it will return the first occurance of that value
 
-print(h.find('x')) # it returns -1 when the value does not exits
-print(h.find('raining')) 
+# find() - returns the index of first occurrence, -1 if not found
+print(h.find('g'))        # Output: 13
+print(h.find('x'))        # Output: -1
+print(h.find('raining'))  # Output: 7
 
-# print(h.index('X'))
+# index() - similar to find(), but raises an error if not found
+# print(h.index('X'))  # ❌ ValueError
 
-# 4 : endswith/startswith
+
+# 4 : startswith() / endswith()
 h = "it is raining outside"
-print(h.startswith('it'))
-print(h.endswith('e'))
-print(h.endswith('t'))
+print(h.startswith('it'))   # Output: True
+print(h.endswith('e'))      # Output: True
+print(h.endswith('t'))      # Output: False
 
-# 5 : format
-k = "hello my name is {} and my age is {}".format("Gojo",27)
+
+# 5 : format()
+# Using positional arguments
+k = "hello my name is {} and my age is {}".format("Gojo", 27)
 print(k)
 
-k = "hello my name is {1} and my age is {0}".format("Gojo",27)
+# Using index positions
+k = "hello my name is {1} and my age is {0}".format("Gojo", 27)
 print(k)
 
-k = "hello my name is {name} and my age is {age}".format(name = "Gojo",age = 27)
+# Using named placeholders
+k = "hello my name is {name} and my age is {age}".format(name="Gojo", age=27)
 print(k)
 
-# 6 : isalnum/isalpha/isdecimal/isdigit/isidentifier
-l = "FLAT20".isalnum()
-print(l)
-l = "FLAT20%".isalnum()
-print(l)
-l = "FLAT20".isalpha()
-print(l)
 
-j = "20a".isdigit()
-print(j)
-j = "20".isdigit()
-print(j)
+# 6 : isalnum / isalpha / isdigit / isidentifier
+print("FLAT20".isalnum())     # True (letters + numbers)
+print("FLAT20%".isalnum())    # False (contains %)
+print("FLAT20".isalpha())     # False (contains numbers)
 
-z = "Hello world".isidentifier()
-print(z)
-z = "Hello_world".isidentifier()
-print(z)
+print("20a".isdigit())        # False (contains letter)
+print("20".isdigit())         # True (only digits)
 
-# 7 : Split 
-x = " who is the prime minister of india".split()
-print(x)
-
-v = " who is the pm of india".split('pm')
-print(v)
-
-# 8 : join
-b = " ".join(['who', 'is', 'the', 'prime', 'minister', 'of', 'india'])
-print(b)
-n = "~".join(['who', 'is', 'the', 'prime', 'minister', 'of', 'india'])
-print(n)
-
-# 9 : Replace
-m = " hi my name is Gojo"
-m1 = m.replace("Gojo","HonoredOne")
-print(m1)
-
-# 10 : Strip
-name = "        gojo        "
-print(name.strip())
+print("Hello world".isidentifier())   # False (space
