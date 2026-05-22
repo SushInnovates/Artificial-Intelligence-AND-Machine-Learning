@@ -63,7 +63,7 @@ print(h.find('x'))        # Output: -1
 print(h.find('raining'))  # Output: 7
 
 # index() - similar to find(), but raises an error if not found
-# print(h.index('X'))  # ❌ ValueError
+# print(h.index('X'))  #  ValueError
 
 
 # 4 : startswith() / endswith()
@@ -95,4 +95,32 @@ print("FLAT20".isalpha())     # False (contains numbers)
 print("20a".isdigit())        # False (contains letter)
 print("20".isdigit())         # True (only digits)
 
-print("Hello world".isidentifier())   # False (space
+print("Hello world".isidentifier())   # False (space not allowed)
+print("Hello_world".isidentifier())   # True (valid identifier)
+
+
+# 7 : split()
+x = " who is the prime minister of india".split()
+print(x)   # Output: ['who', 'is', 'the', 'prime', 'minister', 'of', 'india']
+
+v = " who is the pm of india".split('pm')
+print(v)   # Output: [' who is the ', ' of india']
+
+
+# 8 : join()
+b = " ".join(['who', 'is', 'the', 'prime', 'minister', 'of', 'india'])
+print(b)   # Output: 'who is the prime minister of india'
+
+n = "~".join(['who', 'is', 'the', 'prime', 'minister', 'of', 'india'])
+print(n)   # Output: 'who~is~the~prime~minister~of~india'
+
+
+# 9 : replace()
+m = " hi my name is Gojo"
+m1 = m.replace("Gojo", "HonoredOne")
+print(m1)   # Output: ' hi my name is HonoredOne'
+
+
+# 10 : strip()
+name = "        gojo        "
+print(name.strip())   # Output: 'gojo' (removes leading/trailing spaces)
