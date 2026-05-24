@@ -1,4 +1,6 @@
+# ============================================
 # 📘 Python Lists - Complete Guide
+# ============================================
 
 # 1️⃣ What is a List?
 # A list in Python is an ordered, mutable collection of elements.
@@ -11,7 +13,9 @@
 # Arrays store elements in contiguous memory locations, making them faster.
 # Lists are not stored contiguously, but they are more flexible and programmer-friendly.
 
-#  Creating Lists
+# ============================================
+# 🧩 Creating Lists
+# ============================================
 
 L = []  # Empty list
 print(L)
@@ -38,7 +42,9 @@ print(L5)
 L6 = list()
 print(L6)
 
-#  Accessing Elements
+# ============================================
+# 🔍 Accessing Elements
+# ============================================
 
 print(L1[0])      # First element
 print(L1[-1])     # Last element
@@ -55,9 +61,9 @@ print(L4[1][1][0])  # Access deeply nested element
 L5 = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
 print(L5[0][1][1])
 
-
-# Editing Lists
-
+# ============================================
+# ✏️ Editing Lists
+# ============================================
 
 L = [1, 2, 3, 4, 5, 6]
 L[0] = 100  # Lists are mutable
@@ -69,9 +75,9 @@ print(L[-1])
 L[1:3] = [100, 200, 300]
 print(L)
 
-
-#  Adding Elements
-
+# ============================================
+# ➕ Adding Elements
+# ============================================
 
 # append() - adds a single element
 L.append(600)
@@ -95,8 +101,9 @@ L9 = [1, 2, 3, 4, 5]
 L9.insert(1, "Hello")
 print(L9)
 
-
-#  Deleting Elements
+# ============================================
+# ❌ Deleting Elements
+# ============================================
 
 # del - delete by index or entire list
 del L2  # Deletes entire list
@@ -123,8 +130,9 @@ print(L10)
 L10.clear()
 print(L10)
 
-
-#  Operations on Lists
+# ============================================
+# ⚙️ Operations on Lists
+# ============================================
 
 # Concatenation
 L1 = [1, 2, 3, 4, 5]
@@ -146,9 +154,9 @@ for i in L3:
 print(4 in L3)
 print([4, 5] in L3)
 
-
-#  Built-in Functions
-
+# ============================================
+# 🧮 Built-in Functions
+# ============================================
 
 L1 = [1, 2, 3, 4, 8, 5]
 print(len(L1))          # Length
@@ -167,9 +175,9 @@ print(L.index(4))       # Find index of element
 D = "hello how are you"
 print(D.title())
 
-
-#  Example Questions
-
+# ============================================
+# 🧠 Example Questions
+# ============================================
 
 # Q1: Implement title() manually
 sample = input("Enter a string: ")
