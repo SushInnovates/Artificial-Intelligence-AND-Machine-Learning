@@ -1,6 +1,6 @@
 # Tuples in Python
 # ----------------
-# Tuples are immutable data structures (cannot be changed after creation).
+# Tuples are Immutable Data Structures (cannot be changed after creation).
 # They can store heterogeneous data types and support indexing, slicing, and operations.
 
 # Create Tuples
