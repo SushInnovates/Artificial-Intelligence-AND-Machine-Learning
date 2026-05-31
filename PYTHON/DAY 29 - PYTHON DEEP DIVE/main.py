@@ -2,9 +2,7 @@
 Python Deep Dive : Mutability / Garbage Collection / Variable Referencing
 """
 
-# -------------------------------
 # VARIABLE AND MEMORY REFERENCE
-# -------------------------------
 print("VARIABLE AND MEMORY REFERENCE :")
 
 # Call by Reference:
@@ -25,9 +23,7 @@ print("\tYou give the function a copy of the reference to an object. If mutable,
 # Call by Object → Reference to the object is passed → Object data can be modified and changes may be visible outside the function.
 
 
-# -------------------------------
 # ALIASING
-# -------------------------------
 print("ALIASING :")
 
 # Aliasing means two or more variables refer to the same memory location (same object).
@@ -51,9 +47,7 @@ a = 7
 print(b)    # remains 5
 
 
-# -------------------------------
 # REFERENCE COUNTING
-# -------------------------------
 print("REFERENCE COUNTING :")
 
 # Reference counting means tracking how many variables point to a certain memory location.
@@ -68,9 +62,7 @@ print(sys.getrefcount(x))
 # Note: getrefcount adds +1 because the function itself temporarily references the object.
 
 
-# -------------------------------
 # GARBAGE COLLECTION
-# -------------------------------
 print("GARBAGE COLLECTION :")
 
 # Garbage Collection in Python is the automatic process of freeing memory
@@ -78,9 +70,7 @@ print("GARBAGE COLLECTION :")
 # Python primarily uses reference counting and a garbage collector to manage memory automatically.
 
 
-# -------------------------------
 # WEIRD BEHAVIOUR
-# -------------------------------
 print("WEIRD BEHAVIOUR : ")
 
 # Example 1: Small integers are cached internally, so refcount may look strange
@@ -123,9 +113,7 @@ b = "indian_institute_of_technology_mumbai"
 print(id(a), id(b))   # valid identifier-like strings are interned → same id
 
 
-# -------------------------------
 # MUTABILITY
-# -------------------------------
 print("MUTABILITY : ")
 
 # Mutability refers to the ability to change or edit data in its memory location.
@@ -151,9 +139,7 @@ L.append([5, 6])
 print(id(L))   # same id → mutable
 
 
-# -------------------------------
 # CLONING TO AVOID SIDE EFFECTS
-# -------------------------------
 # Side effect: Mutating one list can affect another if they share references.
 # Solution: Use cloning to create a separate copy.
 
