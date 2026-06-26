@@ -1,5 +1,6 @@
 # Functions in Python - 
-#                         A function is a block of code used to perform a specific task.
+# what is Function?
+# A function is a block of code used to perform a specific task.
 # Syntax:
 #     def function_name(parameters):
 #         # function body
