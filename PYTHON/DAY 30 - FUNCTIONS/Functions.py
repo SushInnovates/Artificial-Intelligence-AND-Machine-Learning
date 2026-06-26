@@ -1,7 +1,5 @@
-# -------------------------------
-# Functions in Python
-# -------------------------------
-# A function is a block of code used to perform a specific task.
+# Functions in Python - 
+#                         A function is a block of code used to perform a specific task.
 # Syntax:
 #     def function_name(parameters):
 #         # function body
@@ -13,9 +11,8 @@
 #     # 'i' is a parameter
 #     pass
 
-# -------------------------------
 # Example: Even/Odd Function
-# -------------------------------
+
 def is_Even(number):
     """
     This function tells if the given number is even or odd.
@@ -33,9 +30,8 @@ def is_Even(number):
         return 'Not Allowed'
 
 
-# -------------------------------
 # Importing Functions
-# -------------------------------
+
 # 1. Save the function in a file in the same directory and import it:
 #       import filename
 # 2. Copy the function file inside Python’s library folder and import it globally.
@@ -47,9 +43,8 @@ def is_Even(number):
 # print(EvenOdd.is_Even.__doc__)
 
 
-# -------------------------------
 # Example: Function with *args
-# -------------------------------
+
 def flex(*number):
     """Takes multiple inputs and returns their product."""
     product = 1
@@ -60,9 +55,8 @@ def flex(*number):
 flex(1, 2, 3, 4, 5, 6, 7)  # Output: 5040
 
 
-# -------------------------------
 # Functions as Parameters
-# -------------------------------
+
 def func_a():
     print('inside func_a')
 
@@ -79,9 +73,8 @@ print(5 + func_b(2))        # Calls func_b
 print(func_c(func_a))       # Passes func_a as argument
 
 
-# -------------------------------
 # Scope Examples
-# -------------------------------
+
 print("Example 1")
 def f(y):
     x = 1
@@ -114,9 +107,8 @@ print('in main scope: z =', z)  # Prints 4
 print('in main scope: x =', x)  # Prints 3
 
 
-# -------------------------------
 # Nested Functions
-# -------------------------------
+
 def g():
     print("Inside g")
     def h():
@@ -139,9 +131,8 @@ x = 3
 z = g(x)
 
 
-# -------------------------------
 # Functions as Objects
-# -------------------------------
+
 def f(num):
     return num ** 2
 
